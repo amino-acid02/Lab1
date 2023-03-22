@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 abstract public class BookBuilder {
      
-    protected String pathFiction = "C:\\amina\\uni\\3year\\прога\\ListFictions.xlsx";
+    protected String pathFiction = ".\\ListFictions.xlsx";
     protected ExcelProvider provider = new ExcelProvider();
     protected  AllFictionBooks book;
     

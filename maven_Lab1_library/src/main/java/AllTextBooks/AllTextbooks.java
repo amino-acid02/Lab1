@@ -5,7 +5,7 @@ import com.mycompany.mavenproject3.ExcelProvider;
 
 public class AllTextbooks extends Books{
 
-    protected String pathTextbook = "C:\\amina\\uni\\3year\\прога\\ListTextbooks.xlsx";
+    protected String pathTextbook = ".\\ListTextbooks.xlsx";
     protected ExcelProvider provider = new ExcelProvider(); 
     
     @Override

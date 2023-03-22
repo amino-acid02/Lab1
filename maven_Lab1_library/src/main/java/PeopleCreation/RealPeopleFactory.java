@@ -9,8 +9,8 @@ import java.util.logging.Logger;
 public class RealPeopleFactory implements PeopleFactory{
     
     protected ExcelProvider provider = new ExcelProvider();
-    protected String studentPath = "C:\\amina\\uni\\3year\\прога\\ListStudents.xlsx";
-    protected String professorPath = "C:\\amina\\uni\\3year\\прога\\ListTeachers.xlsx";
+    protected String studentPath = ".\\ListStudents.xlsx";
+    protected String professorPath = ".\\ListTeachers.xlsx";
 
 //    @Override
 //    public void setProvider() {
